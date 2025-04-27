@@ -1,0 +1,16 @@
+<button 
+    pButton 
+    pRipple 
+    label="Submit" 
+    class="p-button-success"
+    (click)="onClick()">
+</button>
+
+<div class="jupyter-container">
+    <iframe 
+        #jupyterIframe
+        [src]="jupyterUrl | safeUrl" 
+        width="100%"
+        frameborder="0">
+    </iframe>
+</div>

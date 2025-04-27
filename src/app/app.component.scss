@@ -1,0 +1,11 @@
+.jupyter-container {
+    display: flex;
+    background-color: #f8f8f8;
+}
+    
+iframe {
+    border: none;
+    border-radius: 8px;
+    width: 100%;
+    height: calc(100vh - 60px);
+}      
