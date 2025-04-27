@@ -6,7 +6,6 @@ import { IModel } from '@jupyterlab/services/lib/kernel/kernel';
 import { JupyterService } from './shared/services/jupyter.service';
 import { SafeUrlModule } from './shared/pipes/safe-url.module';
 
-
 @Component({
   selector: 'app-root',
   standalone: true,
