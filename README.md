@@ -2,7 +2,7 @@
 
 PoC JupyterLab embedded usin a iframe inside an Angular App
 
-## Start JupyterLab Server
+## Start JupyterLab Server
 
 Create a volume to save Jupyter notebooks
 ```
